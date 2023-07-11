@@ -1,0 +1,96 @@
+body {
+    font: 400 16px/1.3 Roboto,Trebuchet MS,Helvetica,Arial,sans-serif;
+    justify-content: center;
+    background-size:contain;
+    
+    display: block;
+    background-image:url('https://wallpaperset.com/w/full/3/2/5/480582.jpg')
+    
+}
+
+
+.bordered-text {
+   
+    
+    -webkit-text-stroke: 0.25px white;
+  
+  
+  }
+
+header {
+    
+    background: linear-gradient(to right, #ebeff254, hsla(232, 80%, 67%, 0.177));
+    color: #1a1884;
+    padding: 28px;
+    text-align: center;
+}
+
+
+#space{
+    display: block;
+    height: 60px;
+    padding: 60px;
+}
+
+#pad{
+    padding-left: 60px;
+    padding-right: 60px;
+    
+}
+#res {
+    display: block;
+    font-size: 28px;
+    height: 40px;
+    background: linear-gradient(to right, #ffffffb7,#3e68d395);;
+    border: 2px solid rgb(196, 187, 187);
+    box-sizing: border-box;
+}
+
+#btns {
+    display: block;
+    overflow: hidden;
+
+}
+
+#btns button {
+    display: block;
+    float: left;
+    width: 25%;
+    height: 50px;
+    font-size: 25px;
+    background: rgba(0, 0, 0, 0.636);
+    color: rgb(245, 235, 235);
+}
+
+#btns #btn0,
+#btns #btn1 {
+    background-color: rgba(102, 197, 231, 0.84);
+    color: rgb(3, 35, 35);
+}
+
+
+#btns #btnClr,
+#btns #btnEql {
+    background-color: rgba(7, 102, 100, 0.875);
+    color: rgb(255, 255, 255);
+}
+
+footer {
+
+    background: linear-gradient(to right, #ebeff22d, #687aee4a);
+    color: #01000a;
+    padding:5px;
+    
+    transition: all;
+}
+
+
+
+
+  button:hover{
+    border-color:#cfe6eb;
+    color: white;
+    box-shadow: 0 0.5em 0.5em #57bfd9;
+    
+    transform : translateY(-0.25em);
+  }
