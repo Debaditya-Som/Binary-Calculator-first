@@ -43,4 +43,4 @@ If you wish to contribute to the project, follow these steps:
 4. Push the changes to your forked repository.
 5. Create a pull request for your changes to be reviewed and merged into the main project.
 
-***Happy Calculating !***
+***Happy Calculating ~***
